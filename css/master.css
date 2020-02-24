@@ -8,6 +8,10 @@ body {
     overflow-y: scroll;
 }
 
+main {
+    margin-top: 90px
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -23,6 +27,7 @@ ul {
     border-bottom: 1px solid rgba(151,151,151,0.5);
     padding: 24px 24px 0 24px;
     top: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -62,6 +67,35 @@ ul {
     font-family: "Google Sans Bold";
     font-size: 15px;
     font-weight: 500;
+}
+
+.navbar .list ul li:nth-of-type(5) a {
+    color: #3367d6;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #3367d6;
+}
+
+.faq {
+    padding: 32px;
+    max-width: 978px;
+    margin: 0 auto;
+}
+
+.faq .article h2 {
+    color: #3c4043;
+    font-family: 'Google Sans';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    padding: 64px 0 0 0;
+}
+
+.faq .article p {
+    letter-spacing: .2px;
+    line-height: 24px;
+    padding-top: 20px;
+    margin: 10px 0;
 }
 
 @font-face {
