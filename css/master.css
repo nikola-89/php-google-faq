@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none
+}
+
+.navbar {
+    position: fixed;
+    background: #fff;
+    border-bottom: 1px solid rgba(151,151,151,0.5);
+    padding: 24px 24px 0 24px;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .top {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .top a {
+    color: #5f6368;
+    font-family: "Product Sans";
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0 7px;
+}
+
+.navbar .list {
+    padding: 15px 15px 6px 0;
+}
+
+.navbar .list ul {
+    display: flex;
+}
+
+.navbar .list ul li {
+        margin: 0 42px 0 0;
+}
+
+.navbar .list ul li:last-of-type {
+    flex-grow: 1;
+    margin-right: 0;
+    text-align: right;
+}
+
+.navbar .list ul li a {
+    color: #5f6368;
+    font-family: "Google Sans Bold";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("https://fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eO.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Google Sans";
+    src: url("https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Google Sans Bold";
+    src: url("https://fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2") format("woff2");
+}
