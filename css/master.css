@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    margin-top: 90px
+    margin-top: 90px;
 }
 
 footer {
@@ -22,7 +22,7 @@ a {
 }
 
 ul {
-    list-style: none
+    list-style: none;
 }
 
 .navbar {
