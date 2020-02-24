@@ -62,14 +62,14 @@
         </header>
         <main>
             <div class="faq">
-                <div class="article">
-                    <?php foreach ($db as $key) { ?>
+                <?php foreach ($db as $key) { ?>
+                    <div class="article">
                         <h2><?php echo $key['question']; ?></h2>
                         <?php foreach (explode(PHP_EOL, $key['answer']) as $paragraph) { ?>
                             <p><?php echo $paragraph; ?></p>
                         <?php } ?>
-                    <?php } ?>
-                </div>
+                    </div>
+                <?php } ?>
             </div>
         </main>
         <footer>
