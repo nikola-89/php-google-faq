@@ -12,6 +12,10 @@ main {
     margin-top: 90px
 }
 
+footer {
+    height: 45px;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -92,10 +96,56 @@ ul {
 }
 
 .faq .article p {
+    font-family: 'Roboto';
+    font-size: 14px;
     letter-spacing: .2px;
     line-height: 24px;
     padding-top: 20px;
     margin: 10px 0;
+}
+
+.faq .article p a {
+    color: #3367d6;
+}
+
+.faq .article p:first-of-type {
+    margin: 0;
+}
+
+.footer {
+    background: #f5f5f5;
+    border-top: 1px solid #eee;
+    font-size: 11px;
+    list-style: none;
+    padding: 10px 15px 10px 15px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 978px;
+    padding: 0 32px;
+}
+
+.footer .container ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .container ul li {
+    padding-right: 10px;
+}
+
+.footer .container ul li a {
+    color: rgba(61, 61, 61, .8);
+    font-family: 'Roboto';
+}
+
+.footer .container .language-select img {
+    vertical-align: middle;
+    padding-right: 3px;
 }
 
 @font-face {
@@ -111,4 +161,13 @@ ul {
 @font-face {
     font-family: "Google Sans Bold";
     src: url("https://fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2") format("woff2");
+}
+
+@media screen and (max-width: 1255px) {
+    .navbar {
+        padding: 24px;
+    }
+    .navbar .list {
+        display: none;
+    }
 }
